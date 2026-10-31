@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "bf8k3m2x",
+    "name": "Being Friendly Puzzle - NEW",
+    "categories": [
+      {
+        "id": "cfz5a2oo",
+        "name": "Name",
+        "items": []
+      },
+      {
+        "id": "ezdd2qtz",
+        "name": "Country",
+        "items": []
+      },
+      {
+        "id": "hl895vvb",
+        "name": "Date of Birth",
+        "items": []
+      },
+      {
+        "id": "rf2tb4dv",
+        "name": "Greeting",
+        "items": []
+      },
+      {
+        "id": "16s3139i",
+        "name": "Meeting Place",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "jdzn3jro",
+        "text": "The Canadian visitor was born on March 12.",
+        "order": 0
+      },
+      {
+        "id": "bxs4c2j1",
+        "text": "Sofia was not from Canada or the United States.",
+        "order": 1
+      },
+      {
+        "id": "xb0poc99",
+        "text": "The officer said “Good morning” to the visitor at the Zócalo.",
+        "order": 2,
+        "spanishWords": [
+          "Zócalo"
+        ]
+      },
+      {
+        "id": "5hs86poh",
+        "text": "Maria was born on July 8.",
+        "order": 3
+      },
+      {
+        "id": "snnetcx1",
+        "text": "Eugene met the officer at Xochimilco.",
+        "order": 4,
+        "spanishWords": [
+          "Xochimilco"
+        ]
+      },
+      {
+        "id": "akf0n875",
+        "text": "Anna was born on January 5.",
+        "order": 5
+      },
+      {
+        "id": "z4bmi7ik",
+        "text": "The visitor from Italy was born on November 25.",
+        "order": 6
+      },
+      {
+        "id": "klep8hhc",
+        "text": "Daniel met the officer at Coyoacán.",
+        "order": 7,
+        "spanishWords": [
+          "Coyoacán"
+        ]
+      },
+      {
+        "id": "pbonxb4e",
+        "text": "The officer said “Good afternoon” to the visitor at Chapultepec.",
+        "order": 8,
+        "spanishWords": [
+          "Chapultepec"
+        ]
+      },
+      {
+        "id": "o5b061p8",
+        "text": "The visitor from South Korea was born on May 20.",
+        "order": 9
+      },
+      {
+        "id": "ith4oj1d",
+        "text": "The officer said “Good evening” to the visitor at Palacio de Bellas Artes.",
+        "order": 10,
+        "spanishWords": [
+          "Palacio",
+          "de",
+          "Bellas",
+          "Artes"
+        ]
+      },
+      {
+        "id": "j9a7i4ie",
+        "text": "Eugene was not from Canada or Italy.",
+        "order": 11
+      },
+      {
+        "id": "0xfshjla",
+        "text": "The German visitor met the officer at Palacio de Bellas Artes.",
+        "order": 12,
+        "spanishWords": [
+          "Palacio",
+          "de",
+          "Bellas",
+          "Artes"
+        ]
+      },
+      {
+        "id": "xh804sx9",
+        "text": "The visitor born on January 5 met the officer at the Zócalo.",
+        "order": 13,
+        "spanishWords": [
+          "Zócalo"
+        ]
+      },
+      {
+        "id": "y9k2mx27",
+        "text": "The officer said “Hello” to the visitor at Coyoacán.",
+        "order": 14,
+        "spanishWords": [
+          "Coyoacán"
+        ]
+      },
+      {
+        "id": "55lmiy74",
+        "text": "The Canadian visitor met the officer at Chapultepec.",
+        "order": 15,
+        "spanishWords": [
+          "Chapultepec"
+        ]
+      },
+      {
+        "id": "w9dd1twy",
+        "text": "Maria was not from Italy.",
+        "order": 16
+      },
+      {
+        "id": "xd4qch59",
+        "text": "The officer said “Hi” to the visitor at Xochimilco.",
+        "order": 17,
+        "spanishWords": [
+          "Xochimilco"
+        ]
+      },
+      {
+        "id": "3e6zlkux",
+        "text": "The visitor from the United States was not born on July 8.",
+        "order": 18
+      },
+      {
+        "id": "9fny4alq",
+        "text": "Anna was not from Italy.",
+        "order": 19
+      },
+      {
+        "id": "fbee5t3k",
+        "text": "Maria is from Berlin.",
+        "order": 20
+      },
+      {
+        "id": "u1lhwggy",
+        "text": "Sofia flew here from Vancouver.",
+        "order": 21
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Anna",
+        "United States",
+        "January 5",
+        "Good morning",
+        "Zócalo"
+      ],
+      [
+        "Daniel",
+        "Canada",
+        "March 12",
+        "Good afternoon",
+        "Chapultepec"
+      ],
+      [
+        "Maria",
+        "Germany",
+        "July 8",
+        "Hello",
+        "Coyoacán"
+      ],
+      [
+        "Eugene",
+        "South Korea",
+        "May 20",
+        "Hi",
+        "Xochimilco"
+      ],
+      [
+        "Sofia",
+        "Italy",
+        "November 25",
+        "Good evening",
+        "Palacio de Bellas Artes"
+      ]
+    ],
+    "sortOrder": 0,
+    "createdAt": 1790540000000,
+    "updatedAt": 1790724559174
+  },
+  {
+    "id": "blank1",
+    "name": "[TRASHED - Will Not Display] Being Friendly Puzzle (old blank ID)",
+    "categories": [],
+    "clues": [],
+    "gridRows": 0,
+    "solution": [],
+    "sortOrder": 0,
+    "createdAt": 1790618167516,
+    "updatedAt": 1790618167516
+  },
+  {
+    "id": "gd4p7r9n",
+    "name": "Giving Directions Puzzle - NEW",
+    "categories": [
+      {
+        "id": "8fheri3n",
+        "name": "Nationality",
+        "items": []
+      },
+      {
+        "id": "38b1e3yi",
+        "name": "Current Location",
+        "items": []
+      },
+      {
+        "id": "l76ti02t",
+        "name": "Destination",
+        "items": []
+      },
+      {
+        "id": "edjqntul",
+        "name": "Mode of Transportation",
+        "items": []
+      },
+      {
+        "id": "yfbjygp6",
+        "name": "Farewell",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "sfgnseh8",
+        "text": "The Japanese tourist is at the Mexico City Airport.",
+        "order": 0
+      },
+      {
+        "id": "wr066stp",
+        "text": "The officer said, “Have a good day,” to the tourist who was going to Chapultepec Castle.",
+        "order": 1,
+        "spanishWords": [
+          "Chapultepec"
+        ]
+      },
+      {
+        "id": "z8gd9u80",
+        "text": "The tourist in Polanco is going to the Zócalo.",
+        "order": 2,
+        "spanishWords": [
+          "Zócalo",
+          "Polanco"
+        ]
+      },
+      {
+        "id": "ysvej7zm",
+        "text": "The Brazilian tourist is going to Santa Marta.",
+        "order": 3,
+        "spanishWords": [
+          "Santa",
+          "Marta"
+        ]
+      },
+      {
+        "id": "avsyk6ju",
+        "text": "The tourist in Coyoacán is going to the Frida Kahlo Museum.",
+        "order": 4,
+        "spanishWords": [
+          "Coyoacán"
+        ]
+      },
+      {
+        "id": "ypadh6bo",
+        "text": "The tourist going to the Frida Kahlo Museum is traveling on foot.",
+        "order": 5
+      },
+      {
+        "id": "ecgel4ml",
+        "text": "The Spanish tourist is traveling by Metro.",
+        "order": 6
+      },
+      {
+        "id": "pmy85ff2",
+        "text": "The officer said, “Have a good trip,” to the tourist at the airport.",
+        "order": 7
+      },
+      {
+        "id": "nonbvry1",
+        "text": "The tourist at Constitución de 1917 is traveling by cable car.",
+        "order": 8,
+        "spanishWords": [
+          "Constitución",
+          "de"
+        ]
+      },
+      {
+        "id": "oilftu85",
+        "text": "The Spanish tourist is at the Zócalo.",
+        "order": 9,
+        "spanishWords": [
+          "Zócalo"
+        ]
+      },
+      {
+        "id": "apqy6t1a",
+        "text": "The tourist going to Palacio de Bellas Artes is traveling by bus.",
+        "order": 10,
+        "spanishWords": [
+          "Bellas",
+          "Artes",
+          "Palacio",
+          "de"
+        ]
+      },
+      {
+        "id": "6or432a9",
+        "text": "The officer said, “See you later,” to the tourist in Coyoacán.",
+        "order": 11,
+        "spanishWords": [
+          "Coyoacán"
+        ]
+      },
+      {
+        "id": "hkb9a4fu",
+        "text": "The tourist traveling by cable car is going to Santa Marta.",
+        "order": 12,
+        "spanishWords": [
+          "Santa",
+          "Marta"
+        ]
+      },
+      {
+        "id": "exh5di71",
+        "text": "The Australian tourist is not in Polanco.",
+        "order": 13,
+        "spanishWords": [
+          "Polanco"
+        ]
+      },
+      {
+        "id": "zrg7r1wl",
+        "text": "The tourist at the airport is going to Palacio de Bellas Artes.",
+        "order": 14,
+        "spanishWords": [
+          "Palacio",
+          "de",
+          "Bellas",
+          "Artes"
+        ]
+      },
+      {
+        "id": "xdnwfmdu",
+        "text": "The officer said, “You’re welcome,” to the tourist going to Palacio de Bellas Artes.",
+        "order": 15,
+        "spanishWords": [
+          "Palacio",
+          "de",
+          "Bellas",
+          "Artes"
+        ]
+      },
+      {
+        "id": "6v6r13hg",
+        "text": "The tourist in Polanco is traveling by bicycle.",
+        "order": 16,
+        "spanishWords": [
+          "Polanco"
+        ]
+      },
+      {
+        "id": "vhedhpp0",
+        "text": "The tourist going to Santa Marta is traveling by cable car.",
+        "order": 17,
+        "spanishWords": [
+          "Santa",
+          "Marta"
+        ]
+      },
+      {
+        "id": "4wyjm67f",
+        "text": "The officer said, “Have a good evening,” to the tourist traveling by Metro.",
+        "order": 18
+      },
+      {
+        "id": "3uv6sp4m",
+        "text": "The tourist going to Chapultepec Castle is in Coyoacán.",
+        "order": 19,
+        "spanishWords": [
+          "Chapultepec",
+          "Coyoacán"
+        ]
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Australian",
+        "Coyoacán",
+        "Chapultepec Castle",
+        "On foot",
+        "Have a good day"
+      ],
+      [
+        "Brazilian",
+        "Constitución de 1917",
+        "Santa Marta",
+        "By cable car",
+        "Have a good evening"
+      ],
+      [
+        "French",
+        "Polanco",
+        "Zócalo",
+        "By bicycle",
+        "See you later"
+      ],
+      [
+        "Japanese",
+        "Mexico City Airport",
+        "Palacio de Bellas Artes",
+        "By bus",
+        "You’re welcome"
+      ],
+      [
+        "Spanish",
+        "Zócalo",
+        "Frida Kahlo Museum",
+        "By Metro",
+        "Have a good trip"
+      ]
+    ],
+    "sortOrder": 1,
+    "createdAt": 1790540001000,
+    "updatedAt": 1790621610256
+  },
+  {
+    "id": "blank2",
+    "name": "[TRASHED - Will Not Display] Giving Directions Puzzle (old blank ID)",
+    "categories": [],
+    "clues": [],
+    "gridRows": 0,
+    "solution": [],
+    "sortOrder": 1,
+    "createdAt": 1790618167773,
+    "updatedAt": 1790618167773
+  },
+  {
+    "id": "d8qy19ae",
+    "name": "Suspect Identification Puzzle - NEW",
+    "categories": [
+      {
+        "id": "3ds8vmp6",
+        "name": "Suspect",
+        "items": []
+      },
+      {
+        "id": "hxsj11hn",
+        "name": "Hometown",
+        "items": []
+      },
+      {
+        "id": "3ailmymx",
+        "name": "Last Seen",
+        "items": []
+      },
+      {
+        "id": "dgjl2y1s",
+        "name": "Feature",
+        "items": []
+      },
+      {
+        "id": "9x6ps26c",
+        "name": "Past Crime",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "u1zkcbsg",
+        "text": "Elena is from Monterrey.",
+        "order": 0,
+        "spanishWords": []
+      },
+      {
+        "id": "eyrxuczh",
+        "text": "Diego was last seen at the Mercado de Tepito.",
+        "order": 1,
+        "spanishWords": [
+          "Tepito",
+          "Mercado",
+          "de"
+        ]
+      },
+      {
+        "id": "t065qfa6",
+        "text": "Rosa's past crime was fraud.",
+        "order": 2
+      },
+      {
+        "id": "w59i7www",
+        "text": "Martín has a missing front tooth.",
+        "order": 3,
+        "spanishWords": [
+          "Martín"
+        ]
+      },
+      {
+        "id": "f129j89b",
+        "text": "The suspect last seen at Metro Balderas has a birthmark on their hand.",
+        "order": 4,
+        "spanishWords": [
+          "Fabiola",
+          "Ciudad",
+          "Juárez",
+          "Metro",
+          "Balderas"
+        ]
+      },
+      {
+        "id": "lekql0rg",
+        "text": "Elena has red hair.",
+        "order": 5
+      },
+      {
+        "id": "xyxevjkx",
+        "text": "Rosa was last seen at the Zócalo.",
+        "order": 6,
+        "spanishWords": [
+          "Zócalo"
+        ]
+      },
+      {
+        "id": "ejbb0ap0",
+        "text": "Martín is from Guadalajara.",
+        "order": 7,
+        "spanishWords": [
+          "Guadalajara",
+          "Martín"
+        ]
+      },
+      {
+        "id": "9skj638d",
+        "text": "Diego has a scar on his left cheek.",
+        "order": 8
+      },
+      {
+        "id": "3mjqhbd5",
+        "text": "Fabiola was last seen at Metro Balderas.",
+        "order": 9,
+        "spanishWords": [
+          "Metro",
+          "Balderas",
+          "Fabiola"
+        ]
+      },
+      {
+        "id": "v3nogpne",
+        "text": "The suspect with red hair has a record for pickpocketing.",
+        "order": 10
+      },
+      {
+        "id": "z96tkdor",
+        "text": "The suspect with a tattoo on the neck has a record for fraud.",
+        "order": 11
+      },
+      {
+        "id": "zw87cfp9",
+        "text": "The suspect with a scar on the left cheek has a record for car theft.",
+        "order": 12
+      },
+      {
+        "id": "8d6onupm",
+        "text": "The suspect with a missing front tooth has a record for robbery.",
+        "order": 13
+      },
+      {
+        "id": "ejeltzoj",
+        "text": "The suspect with a birthmark on the hand has a record for drug trafficking.",
+        "order": 14
+      },
+      {
+        "id": "8o5jwoh9",
+        "text": "The suspect from Monterrey was last seen at Chapultepec Park.",
+        "order": 15,
+        "spanishWords": [
+          "Chapultepec"
+        ]
+      },
+      {
+        "id": "jyyu8hzq",
+        "text": "The suspect from Guadalajara was last seen in Zona Rosa.",
+        "order": 16,
+        "spanishWords": [
+          "Guadalajara",
+          "Zona",
+          "Rosa"
+        ]
+      },
+      {
+        "id": "6g5k5qvl",
+        "text": "The suspect from Tijuana was last seen at the Mercado de Tepito.",
+        "order": 17,
+        "spanishWords": [
+          "Mercado",
+          "de",
+          "Tepito",
+          "Tijuana"
+        ]
+      },
+      {
+        "id": "4ck6jvby",
+        "text": "The suspect with a neck tattoo is from Veracruz.",
+        "order": 18,
+        "spanishWords": [
+          "Veracruz"
+        ]
+      },
+      {
+        "id": "4ku292dg",
+        "text": "The suspect with a birthmark on the hand is from Ciudad Juárez.",
+        "order": 19,
+        "spanishWords": [
+          "Ciudad",
+          "Juárez"
+        ]
+      },
+      {
+        "id": "qlal5sn7",
+        "text": "The suspect with a record for car theft was last seen at the Mercado de Tepito.",
+        "order": 20,
+        "spanishWords": [
+          "Tijuana",
+          "Mercado",
+          "de",
+          "Tepito"
+        ]
+      },
+      {
+        "id": "55iec6y0",
+        "text": "The suspect with a record for drug trafficking was last seen at Metro Balderas.",
+        "order": 21,
+        "spanishWords": [
+          "Metro",
+          "Balderas"
+        ]
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Elena",
+        "Monterrey",
+        "Chapultepec Park",
+        "Red hair",
+        "Pickpocketing"
+      ],
+      [
+        "Diego",
+        "Tijuana",
+        "Mercado de Tepito",
+        "Scar on left cheek",
+        "Car theft"
+      ],
+      [
+        "Rosa",
+        "Veracruz",
+        "Zócalo",
+        "Tattoo on neck",
+        "Fraud"
+      ],
+      [
+        "Martín",
+        "Guadalajara",
+        "Zona Rosa",
+        "Missing front tooth",
+        "Robbery"
+      ],
+      [
+        "Fabiola",
+        "Ciudad Juárez",
+        "Metro Balderas",
+        "Birthmark on hand",
+        "Drug trafficking"
+      ]
+    ],
+    "sortOrder": 2,
+    "createdAt": 1790536816742,
+    "updatedAt": 1790785050368
+  },
+  {
+    "id": "sns2b6y2",
+    "name": "Foreign Tourist Puzzle",
+    "categories": [
+      {
+        "id": "ye0x6c5a",
+        "name": "Name",
+        "items": []
+      },
+      {
+        "id": "rfcttiy1",
+        "name": "Country",
+        "items": []
+      },
+      {
+        "id": "7neiyo71",
+        "name": "Length of Stay",
+        "items": []
+      },
+      {
+        "id": "6xhv9ogv",
+        "name": "Reason for Visit",
+        "items": []
+      },
+      {
+        "id": "vpilhd3x",
+        "name": "Location",
+        "items": []
+      },
+      {
+        "id": "bxs33sd3",
+        "name": "Request",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "l2aibu16",
+        "text": "Sarah is from the United States.",
+        "order": 0
+      },
+      {
+        "id": "b4p13h6m",
+        "text": "Marco is from Italy.",
+        "order": 1
+      },
+      {
+        "id": "14sa56wj",
+        "text": "Yuna is at Xochimilco.",
+        "order": 2,
+        "spanishWords": [
+          "Xochimilco"
+        ]
+      },
+      {
+        "id": "rz8k3n08",
+        "text": "Carlos is from Colombia.",
+        "order": 3
+      },
+      {
+        "id": "mb8ddb8l",
+        "text": "Elena is from Canada.",
+        "order": 4
+      },
+      {
+        "id": "v0u754p6",
+        "text": "Sarah is in Mexico City for 3 days.",
+        "order": 5
+      },
+      {
+        "id": "ompe4k8z",
+        "text": "Marco wants to report a theft.",
+        "order": 6
+      },
+      {
+        "id": "xz9it5ux",
+        "text": "Carlos is staying in Mexico City for six months.",
+        "order": 7
+      },
+      {
+        "id": "8qnr82od",
+        "text": "Elena wants to report a missing child.",
+        "order": 8
+      },
+      {
+        "id": "73djraa3",
+        "text": "Yuna is in Mexico City to visit friends.",
+        "order": 9
+      },
+      {
+        "id": "kcvo18xj",
+        "text": "Sarah is on vacation.",
+        "order": 10
+      },
+      {
+        "id": "nrn5ufsy",
+        "text": "Marco is in Mexico City for one week.",
+        "order": 11
+      },
+      {
+        "id": "7pde3cud",
+        "text": "The tourist on vacation is at the Angel of Independence.",
+        "order": 12
+      },
+      {
+        "id": "dw93fyyy",
+        "text": "The tourist on a business trip is at Plaza Garibaldi.",
+        "order": 13,
+        "spanishWords": [
+          "Plaza",
+          "Garibaldi"
+        ]
+      },
+      {
+        "id": "flqk9ps3",
+        "text": "The tourist working online is at Santa Fe.",
+        "order": 14,
+        "spanishWords": [
+          "Santa",
+          "Fe"
+        ]
+      },
+      {
+        "id": "5ssw7ro2",
+        "text": "The tourist visiting family is at the Basílica de Guadalupe.",
+        "order": 15,
+        "spanishWords": [
+          "Basílica",
+          "de",
+          "Guadalupe"
+        ]
+      },
+      {
+        "id": "6325x2q8",
+        "text": "The tourist here for 3 days wants directions to the Zócalo.",
+        "order": 16,
+        "spanishWords": [
+          "Zócalo"
+        ]
+      },
+      {
+        "id": "0uo4es3x",
+        "text": "The tourist from Germany is here for 5 days.",
+        "order": 17
+      },
+      {
+        "id": "aiw86x2x",
+        "text": "The tourist from Canada is here for a couple of weeks.",
+        "order": 18
+      },
+      {
+        "id": "q79pf7rp",
+        "text": "The tourist who needs medical assistance is from Germany.",
+        "order": 19
+      },
+      {
+        "id": "zwuran5c",
+        "text": "The tourist who wants the nearest metro station is working online.",
+        "order": 21
+      },
+      {
+        "id": "ukj4vdo7",
+        "text": "The tourist visiting family is from Canada.",
+        "order": 22
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Sarah",
+        "United States",
+        "3 days",
+        "Vacation",
+        "Angel of Independence",
+        "Directions to Zócalo"
+      ],
+      [
+        "Marco",
+        "Italy",
+        "One week",
+        "Business trip",
+        "Plaza Garibaldi",
+        "Report a theft"
+      ],
+      [
+        "Yuna",
+        "Germany",
+        "5 days",
+        "Visiting friends",
+        "Xochimilco",
+        "Medical assistance"
+      ],
+      [
+        "Carlos",
+        "Colombia",
+        "Six months",
+        "Working online",
+        "Santa Fe",
+        "Nearest metro station"
+      ],
+      [
+        "Elena",
+        "Canada",
+        "A couple of weeks",
+        "Visiting family",
+        "Basílica de Guadalupe",
+        "Report missing child"
+      ]
+    ],
+    "sortOrder": 3,
+    "createdAt": 1790536816756,
+    "updatedAt": 1790540412788
+  },
+  {
+    "id": "1q3uz2zy",
+    "name": "Crime Scene Witness Puzzle",
+    "categories": [
+      {
+        "id": "4uaegoit",
+        "name": "Witness",
+        "items": []
+      },
+      {
+        "id": "4szf3gu3",
+        "name": "Location",
+        "items": []
+      },
+      {
+        "id": "hvfkn9gy",
+        "name": "Time of Day",
+        "items": []
+      },
+      {
+        "id": "5ntvlp1b",
+        "name": "Clothing Color",
+        "items": []
+      },
+      {
+        "id": "iwqbml9i",
+        "name": "Vehicle",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "owqyrd49",
+        "text": "Carlos was seen near the bank.",
+        "order": 0
+      },
+      {
+        "id": "3x1zstob",
+        "text": "The person in blue clothing was on a motorcycle.",
+        "order": 1
+      },
+      {
+        "id": "72ow196y",
+        "text": "Ana was at the park in the afternoon.",
+        "order": 2
+      },
+      {
+        "id": "x1lszb6x",
+        "text": "Tom wore black clothing.",
+        "order": 3
+      },
+      {
+        "id": "xwg1guey",
+        "text": "The person at the train station traveled by bus.",
+        "order": 4
+      },
+      {
+        "id": "iso38ct4",
+        "text": "Mike was at the market.",
+        "order": 5
+      },
+      {
+        "id": "zwbvxm80",
+        "text": "Sara wore white clothing.",
+        "order": 6
+      },
+      {
+        "id": "upf1c01k",
+        "text": "The person with the bicycle wore red clothing.",
+        "order": 7
+      },
+      {
+        "id": "ch7hj9kq",
+        "text": "Tom was seen in the evening.",
+        "order": 8
+      },
+      {
+        "id": "x5uusxfg",
+        "text": "The person in green clothing drove a truck.",
+        "order": 9
+      },
+      {
+        "id": "5i2wcqyl",
+        "text": "Carlos was seen in the morning.",
+        "order": 10
+      },
+      {
+        "id": "max9ax3o",
+        "text": "The person at the hotel drove a car.",
+        "order": 11
+      },
+      {
+        "id": "dw51hr5d",
+        "text": "Sara was seen in the morning.",
+        "order": 12
+      },
+      {
+        "id": "qyqr1i9h",
+        "text": "Mike was seen in the afternoon.",
+        "order": 13
+      },
+      {
+        "id": "8pbv3eqk",
+        "text": "Ana did not travel by car or motorcycle.",
+        "order": 14
+      },
+      {
+        "id": "3ixiwcwn",
+        "text": "Carlos did not wear green clothing.",
+        "order": 15
+      },
+      {
+        "id": "fnavcqg4",
+        "text": "The person who drove a truck was not seen at the bank or the park.",
+        "order": 16
+      },
+      {
+        "id": "1hd9bxwl",
+        "text": "Mike did not travel by bicycle.",
+        "order": 17
+      },
+      {
+        "id": "vdvcggkp",
+        "text": "Sara was not seen at the hotel.",
+        "order": 18
+      },
+      {
+        "id": "i0yb5l24",
+        "text": "Ana wore red clothing.",
+        "order": 19
+      },
+      {
+        "id": "5xl7yc6x",
+        "text": "The person at the hotel was not seen in the morning.",
+        "order": 20
+      },
+      {
+        "id": "hd2l6mhw",
+        "text": "Carlos traveled by motorcycle.",
+        "order": 21
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Carlos",
+        "Bank",
+        "Morning",
+        "Blue",
+        "Motorcycle"
+      ],
+      [
+        "Ana",
+        "Park",
+        "Afternoon",
+        "Red",
+        "Bicycle"
+      ],
+      [
+        "Tom",
+        "Hotel",
+        "Evening",
+        "Black",
+        "Car"
+      ],
+      [
+        "Sara",
+        "Train Station",
+        "Morning",
+        "White",
+        "Bus"
+      ],
+      [
+        "Mike",
+        "Market",
+        "Afternoon",
+        "Green",
+        "Truck"
+      ]
+    ],
+    "sortOrder": 4,
+    "createdAt": 1790536816770,
+    "updatedAt": 1790540412939
+  },
+  {
+    "id": "9bykc4kb",
+    "name": "Suspect Profile Puzzle - Detectives Only",
+    "categories": [
+      {
+        "id": "8gxargb6",
+        "name": "Suspect",
+        "items": []
+      },
+      {
+        "id": "681syjdz",
+        "name": "Nationality",
+        "items": []
+      },
+      {
+        "id": "u7bn7q1v",
+        "name": "Occupation",
+        "items": []
+      },
+      {
+        "id": "fh1cfl9c",
+        "name": "Transport ",
+        "items": []
+      },
+      {
+        "id": "91o2rcdq",
+        "name": "Evidence",
+        "items": []
+      }
+    ],
+    "clues": [
+      {
+        "id": "u7kg2nh5",
+        "text": "Reyes is a Colombian national.",
+        "order": 0
+      },
+      {
+        "id": "6rpepvkk",
+        "text": "The suspect who traveled by cargo truck worked as an import/export agent.",
+        "order": 1
+      },
+      {
+        "id": "0dft8m2t",
+        "text": "A forged shipping manifest was found among the belongings of the art dealer.",
+        "order": 2
+      },
+      {
+        "id": "954h1uxm",
+        "text": "Drummond is neither Colombian nor Japanese.",
+        "order": 3
+      },
+      {
+        "id": "rzp8ym75",
+        "text": "The pharmaceutical representative arrived in Mexico by rental car.",
+        "order": 4
+      },
+      {
+        "id": "7jn4ykem",
+        "text": "Neither Khalil nor Sato traveled by private yacht.",
+        "order": 5
+      },
+      {
+        "id": "k7mh8c98",
+        "text": "The suspect whose evidence was a burner phone did not travel by fishing vessel or rental car.",
+        "order": 6
+      },
+      {
+        "id": "s5l8cav6",
+        "text": "The marine engineer's evidence was an encrypted USB drive.",
+        "order": 7
+      },
+      {
+        "id": "g2kyyrhj",
+        "text": "The suspect who traveled by commercial flight was found with a hidden compartment in their luggage.",
+        "order": 8
+      },
+      {
+        "id": "k28wsfyz",
+        "text": "The antiques restorer did not travel by cargo truck or rental car.",
+        "order": 10
+      },
+      {
+        "id": "pypssqse",
+        "text": "Sato's evidence was not a forged manifest or a hidden compartment.",
+        "order": 11
+      },
+      {
+        "id": "ho86dzv8",
+        "text": "The Canadian suspect did not work as a pharmaceutical representative or an art dealer.",
+        "order": 12
+      },
+      {
+        "id": "bdsipdrz",
+        "text": "Khalil is not Canadian, Colombian, or Czech.",
+        "order": 13
+      },
+      {
+        "id": "uf2a5em0",
+        "text": "No evidence of a burner phone was found on either the art dealer or the marine engineer.",
+        "order": 14
+      },
+      {
+        "id": "123wmf0n",
+        "text": "Drummond, whose evidence was recovered from a vessel at sea, is not Czech.",
+        "order": 15
+      },
+      {
+        "id": "x8cbrcc3",
+        "text": "The import/export agent, who was intercepted at a land border crossing, is Czech.",
+        "order": 16
+      },
+      {
+        "id": "m4ihtp3y",
+        "text": "Whoever traveled by fishing vessel was not carrying an unmarked package or a burner phone.",
+        "order": 17
+      },
+      {
+        "id": "lh807mfd",
+        "text": "The suspect found with an unmarked package did not arrive by yacht or cargo truck.",
+        "order": 18
+      },
+      {
+        "id": "f7cirtfm",
+        "text": "Reyes did not travel overland, nor was he intercepted at an airport.",
+        "order": 19
+      },
+      {
+        "id": "848flfno",
+        "text": "Of the five suspects, only one traveled by sea on a privately registered vessel — and that person is not Novak.",
+        "order": 20
+      },
+      {
+        "id": "5c3h1xo9",
+        "text": "Khalil's occupation requires regular international travel, but it does not involve trade in goods or vehicles.",
+        "order": 22
+      },
+      {
+        "id": "g1x7ewpq",
+        "text": "The suspect with the encrypted USB drive is the only one who holds maritime certification.",
+        "order": 23
+      },
+      {
+        "id": "0a33zdi6",
+        "text": "Sato's cover story involved routine business visits, and the evidence found was consistent with pharmaceutical distribution.",
+        "order": 24
+      },
+      {
+        "id": "tt0m1cca",
+        "text": "08. Novak is not Canadian, and did not arrive by commercial flight.",
+        "order": 25
+      },
+      {
+        "id": "okd8d6uv",
+        "text": "The suspect who used a rental car is the only one whose nationality is Japanese.",
+        "order": 25
+      }
+    ],
+    "gridRows": 5,
+    "solution": [
+      [
+        "Reyes",
+        "Colombian",
+        "Art dealer",
+        "Private yacht",
+        "Forged manifest"
+      ],
+      [
+        "Novak",
+        "Czech",
+        "Import/export agent",
+        "Cargo truck",
+        "Burner phone"
+      ],
+      [
+        "Khalil",
+        "Jordanian",
+        "Antiques restorer",
+        "Commercial flight",
+        "Hidden compartment"
+      ],
+      [
+        "Drummond",
+        "Canadian",
+        "Marine engineer",
+        "Fishing vessel",
+        "Encrypted USB"
+      ],
+      [
+        "Sato",
+        "Japanese",
+        "Pharmaceutical rep",
+        "Rental car",
+        "Unmarked package"
+      ]
+    ],
+    "password": "SilentRoute",
+    "sortOrder": 5,
+    "createdAt": 1790536816824,
+    "updatedAt": 1790621367728
+  }
+]
