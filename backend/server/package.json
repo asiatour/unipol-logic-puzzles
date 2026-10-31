@@ -1,0 +1,17 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "EdgeSpark user code template for AI coding agents",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.10.5",
+    "drizzle-orm": "^0.45.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
