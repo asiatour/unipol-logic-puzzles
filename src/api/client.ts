@@ -1,51 +1,121 @@
-import type { Puzzle } from '../types/puzzle';
-import seedPuzzles from '../data/puzzles.json';
+import { createEdgeSpark } from "@edgespark/client";
+import "@edgespark/client/styles.css";
+
+const WORKER_URL = "https://staging--btnowg4yy54vl9fywzsv.youbase.cloud";
+
+export const client = createEdgeSpark({ baseUrl: WORKER_URL });
 
 /**
- * Static build data source.
- *
- * The app used to load puzzles from an EdgeSpark backend (`/api/public/puzzles`)
- * and push designer edits back to it. This build is hosted as a plain static
- * site (GitHub Pages), so the puzzles are bundled at build time from
- * `src/data/puzzles.json` and all mutations are local only: the zustand store
- * persists whatever the player/designer changes in localStorage.
+ * Fetch all puzzles from the server (public - no auth required)
  */
-
-const SEED_PUZZLES = seedPuzzles as unknown as Puzzle[];
-
-/** Deep clone so callers can never mutate the bundled module data. */
-function clone<T>(value: T): T {
-  return JSON.parse(JSON.stringify(value)) as T;
+export async function fetchPuzzles() {
+  const res = await client.api.fetch("/api/public/puzzles");
+  if (!res.ok) {
+    throw new Error(`Failed to fetch puzzles: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.data;
 }
 
 /**
- * Return the bundled puzzles. Kept async so callers are unchanged.
+ * Create a new puzzle on the server
  */
-export async function fetchPuzzles(): Promise<Puzzle[]> {
-  return clone(SEED_PUZZLES);
+export async function createPuzzleOnServer(puzzle: {
+  id: string;
+  name: string;
+  categories: unknown[];
+  clues: unknown[];
+  gridRows: number;
+  solution: unknown[][];
+  password?: string;
+}) {
+  const res = await client.api.fetch("/api/public/puzzles", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(puzzle),
+  });
+  if (!res.ok) {
+    throw new Error(`Failed to create puzzle: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.data;
 }
 
-/*
- * The functions below used to write to the backend. With no server in a static
- * build they resolve locally and the store's localStorage persistence is the
- * source of truth for any edits made in the designer.
+/**
+ * Update a puzzle on the server
  */
-
-export async function createPuzzleOnServer(puzzle: Puzzle): Promise<Puzzle> {
-  return puzzle;
-}
-
 export async function updatePuzzleOnServer(
-  _puzzleId: string,
-  updates: Partial<Puzzle>
-): Promise<Partial<Puzzle>> {
-  return updates;
+  puzzleId: string,
+  updates: {
+    name?: string;
+    categories?: unknown[];
+    clues?: unknown[];
+    gridRows?: number;
+    solution?: unknown[][];
+    password?: string;
+  }
+) {
+  const res = await client.api.fetch(`/api/public/puzzles/${puzzleId}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(updates),
+  });
+  if (!res.ok) {
+    throw new Error(`Failed to update puzzle: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.data;
 }
 
-export async function deletePuzzleOnServer(_puzzleId: string): Promise<null> {
-  return null;
+/**
+ * Delete a puzzle from the server
+ */
+export async function deletePuzzleOnServer(puzzleId: string) {
+  const res = await client.api.fetch(`/api/public/puzzles/${puzzleId}`, {
+    method: "DELETE",
+  });
+  if (!res.ok) {
+    throw new Error(`Failed to delete puzzle: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.data;
 }
 
-export async function updatePuzzleOrder(puzzleIds: string[]): Promise<string[]> {
-  return puzzleIds;
+/**
+ * Update puzzle order on the server
+ */
+export async function updatePuzzleOrder(puzzleIds: string[]) {
+  const res = await client.api.fetch("/api/public/puzzles-order", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ puzzleIds }),
+  });
+  if (!res.ok) {
+    throw new Error(`Failed to update puzzle order: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.data;
+}
+
+/**
+ * Render auth UI into a container element
+ */
+export async function renderAuthUI(
+  container: HTMLElement,
+  options?: {
+    redirectTo?: string;
+    labels?: Record<string, string>;
+  }
+) {
+  await client.auth.renderAuthUI(container, {
+    redirectTo: options?.redirectTo || "/",
+    labels: options?.labels,
+  });
+}
+
+/**
+ * Sign out the current user
+ */
+export async function signOut() {
+  await client.auth.signOut();
 }

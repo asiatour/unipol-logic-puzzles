@@ -264,7 +264,7 @@ function PuzzleListScreen() {
               <span className="text-amber-400">UNIPOL</span>{' '}
               <span className="text-white/70 font-normal">Logic Puzzles</span>
             </h1>
-            <img src={`${import.meta.env.BASE_URL}unipol-logo.jpg`} alt="UNIPOL" className="h-14 w-auto ml-3 shrink-0" />
+            <img src="/unipol-logo.jpg" alt="UNIPOL" className="h-14 w-auto ml-3 shrink-0" />
           </div>
           <div className="flex items-center gap-4 shrink-0">
             <ThemeToggle />
@@ -309,7 +309,7 @@ function PuzzleListScreen() {
                       </button>
                     )}
                     <a
-                      href={`${import.meta.env.BASE_URL}pdfs/${puzzlePdfFile(puzzle.name)}`}
+                      href={`/pdfs/${puzzlePdfFile(puzzle.name)}`}
                       download
                       onClick={(e) => e.stopPropagation()}
                       className="flex items-center gap-1.5 bg-white/[0.05] text-white/50 px-3 py-1.5 rounded-lg text-sm font-medium hover:bg-white/[0.08] hover:text-white transition-colors"
